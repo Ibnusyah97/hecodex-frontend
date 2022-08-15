@@ -58,11 +58,9 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="hero__info">
-            <HeroTitle className="hero__title">
-              The New Era of WEB3
-            </HeroTitle>
+            <HeroTitle className="hero__title">The New Era of WEB3</HeroTitle>
             <ParagraphText className="hero__desc">
-              Because every picture tells a story, let us help you tell yours.
+              Everything make easy with Hecodex
             </ParagraphText>
             <PrimaryButton
               buttonType={Link}

@@ -14,7 +14,7 @@ const LogoStyles = styled.div`
 export default function Logo({ ...rest }) {
   return (
     <LogoStyles {...rest}>
-        <img src={Hecodex} alt="Hecodex" />
+      <img src={Hecodex} alt="Hecodex" />
     </LogoStyles>
   );
 }
