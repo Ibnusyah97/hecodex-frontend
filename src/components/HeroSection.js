@@ -59,7 +59,7 @@ function HeroSection() {
         <div className="hero__wrapper">
           <div className="hero__info">
             <HeroTitle className="hero__title">
-              A click of artistic joy
+              The New Era of WEB3
             </HeroTitle>
             <ParagraphText className="hero__desc">
               Because every picture tells a story, let us help you tell yours.
