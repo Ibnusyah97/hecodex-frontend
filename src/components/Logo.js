@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Hecodex from '../assets/images/logo.png';
 
 const LogoStyles = styled.div`
   max-width: 100px;
