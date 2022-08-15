@@ -1,6 +1,6 @@
 {
-	"name": "hecodex-website",
-	"version": "0.1.0",
+	"name": "hecodex",
+	"version": "0.1.1",
 	"private": true,
 	"dependencies": {
 		"@fontsource/poppins": "^4.5.0",
@@ -54,7 +54,7 @@
 		"eslint": "^7.32.0",
 		"eslint-config-airbnb": "^18.2.1",
 		"eslint-config-airbnb-typescript": "^14.0.2",
-		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-prettier": "^8.3.0",
 		"eslint-config-wesbos": "^2.1.0",
 		"eslint-plugin-html": "^6.2.0",
 		"eslint-plugin-import": "^2.25.3",
