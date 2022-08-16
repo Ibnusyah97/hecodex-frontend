@@ -8,7 +8,7 @@ const ThemeSwitcherStyles = styled.div`
   label {
     --gap: 5px;
     --size: 20px;
-    height: 30px;
+    height: 25px;
     width: 55px;
     padding: 0 var(--gap);
     position: relative;

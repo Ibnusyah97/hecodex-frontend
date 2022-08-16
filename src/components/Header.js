@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 import themeList from '../data/themeList';
 import Logo from './Logo';
 import ThemeSwitcher from './ThemeSwitcher';
+import SwapButton from './buttons/SwapButton';
 
 const HeaderStyles = styled.header`
   position: fixed;
@@ -26,11 +27,11 @@ const HeaderStyles = styled.header`
     margin: 0 0.5rem;
     a {
       display: inline-block;
-      font-size: 1.6rem;
-      font-weight: 500;
+      font-size: 1.4rem;
+      font-weight: 300;
       padding: 0.5rem 1rem;
       color: ${({ theme: { theme } }) =>
-        theme === themeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_1)'};
+        theme === themeList.light ? 'var(--white)' : 'var(--lightBlue_1)'};
     }
     &:hover {
       a {
@@ -96,7 +97,9 @@ const HeaderStyles = styled.header`
       top: 0;
       right: 0;
       background: ${({ theme: { theme } }) =>
-        theme === themeList.light ? 'var(--lightBlue_2)' : 'var(--darkBlue_4)'};
+        theme === themeList.light
+          ? 'var(--mediumSlateBlue)'
+          : 'var(--darkBlue_4)'};
       height: 100vh;
       z-index: 100;
       transform: translateX(100%);
@@ -183,17 +186,22 @@ export default function Header() {
                 </li>
                 <li>
                   <Link to="services" smooth activeClass="active" spy>
-                    Services
+                    Features
                   </Link>
                 </li>
                 <li>
                   <Link to="about" smooth activeClass="active" spy>
-                    About
+                    Docs
                   </Link>
                 </li>
                 <li>
-                  <Link to="contact" smooth activeClass="active" spy>
-                    Contact
+                  <Link to="tools" smooth activeClass="active" spy>
+                    Tools
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/roadmap" smooth activeClass="active" spy>
+                    Roadmap
                   </Link>
                 </li>
               </ul>
@@ -208,6 +216,9 @@ export default function Header() {
                 onClick={() => setIsNavOpen(false)}
               />
             )}
+            <SwapButton href="https://swap.hecodex.pro" smooth>
+              HecoSwap
+            </SwapButton>
             <ThemeSwitcher />
             {isMobile && (
               <div

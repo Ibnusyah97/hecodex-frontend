@@ -47,7 +47,7 @@ const TeamSectionStyles = styled.div`
 
 function TeamSection() {
   return (
-    <TeamSectionStyles>
+    <TeamSectionStyles id="tools">
       <div className="container">
         <div className="team__wrapper">
           <div className="team__info">
