@@ -13,7 +13,7 @@ const themeReducer = (state, action) => {
         state.theme === darkTheme ? lightTheme : darkTheme
       );
       return {
-        theme: state.theme === darkTheme ? lightTheme : darkTheme,
+        theme: state.theme === lightTheme ? darkTheme : lightTheme,
       };
     default:
       return state;
