@@ -26,7 +26,7 @@ const ButtonsStyles = styled.a`
   margin-left: 1rem;
   @media only screen and (max-width: 768px) {
     font-size: 1.2rem;
-    padding: 0.6rem 2.1rem;
+    padding: 0.7rem 2.1rem;
     margin-right: 1.2rem;
   }
 `;
