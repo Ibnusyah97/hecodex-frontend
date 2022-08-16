@@ -60,7 +60,7 @@ function HeroSection() {
           <div className="hero__info">
             <HeroTitle className="hero__title">The New Era of WEB3</HeroTitle>
             <ParagraphText className="hero__desc">
-              Can do anything, make everything with Hecodex Network
+              Bring a new things, think something, make everything with Hecodex
             </ParagraphText>
             <PrimaryButton
               buttonType={Link}
