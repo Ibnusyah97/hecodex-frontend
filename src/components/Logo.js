@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HecodexLight from '../assets/images/logo.png';
+import HecodexLight from '../assets/images/logo-light.png';
 
 const LogoStyles = styled.div`
   max-width: 125px;
