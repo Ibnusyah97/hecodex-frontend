@@ -61,8 +61,8 @@ function Footer() {
             <Logo className="footer__logo" />
           </Link>
           <ParagraphText className="footer__desc">
-            “Artistic” is a studio of some passionate photographer. Our Goal is
-            to capture your experience.
+            Hecodex is a startup studio will bring a new innovation on
+            Blockchain Space.
           </ParagraphText>
           <div className="footer__links">
             <ul>
@@ -73,23 +73,33 @@ function Footer() {
               </li>
               <li>
                 <Link to="services" smooth>
-                  Services
+                  Features
                 </Link>
               </li>
               <li>
                 <Link to="about" smooth>
-                  About
+                  Docs
                 </Link>
               </li>
               <li>
-                <Link to="contact" smooth>
-                  Contact
+                <Link to="tools" smooth>
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <Link to="/roadmap" smooth>
+                  Roadmap
+                </Link>
+              </li>
+              <li>
+                <Link to="/whitepaper" smooth>
+                  Whitepaper
                 </Link>
               </li>
             </ul>
           </div>
           <ParagraphText className="footer__copyright">
-            © Artistic Creative {new Date().getFullYear()}. All rights reserved
+            © Hecodex {new Date().getFullYear()}. All rights reserved
           </ParagraphText>
         </div>
       </div>

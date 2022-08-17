@@ -6,7 +6,7 @@ import HeroSection from '../components/HeroSection';
 import Header from '../components/Header';
 import NewsletterSection from '../components/NewsletterSection';
 import ServicesSection from '../components/services/ServicesSection';
-import TeamSection from '../components/team/TeamSection';
+import ToolSection from '../components/tools/ToolSection';
 
 function LandingPage() {
   return (
@@ -15,7 +15,7 @@ function LandingPage() {
       <HeroSection />
       <ServicesSection />
       <AboutSection />
-      <TeamSection />
+      <ToolSection />
       <NewsletterSection />
       <ContactSection />
       <Footer />

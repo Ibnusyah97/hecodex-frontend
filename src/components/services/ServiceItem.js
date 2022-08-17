@@ -46,6 +46,27 @@ const ServiceItemStyles = styled.div`
     }
   }
   @media only screen and (max-width: 768px) {
+    border-style: outset;
+    border-color: var(--mediumSlateBlue);
+    border-width: 1px;
+    .service__icon {
+      background-color: var(--lightBlue_1);
+      color: var(--mediumSlateBlue);
+    }
+    .service__title {
+      color: ${({ theme: { theme } }) =>
+        theme === themeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_1)'};
+    }
+    .service__desc {
+      color: ${({ theme: { theme } }) =>
+        theme === themeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_1)'};
+    }
+    .service__title {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  &:hover {
     background-color: var(--mediumSlateBlue);
     .service__icon {
       background-color: var(--lightBlue_1);
@@ -56,10 +77,6 @@ const ServiceItemStyles = styled.div`
     }
     .service__desc {
       color: var(--lightBlue_1);
-    }
-    .service__title {
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
     }
   }
 `;
