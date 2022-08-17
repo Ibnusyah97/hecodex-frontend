@@ -65,7 +65,7 @@ function HeroSection() {
             <PrimaryButton
               buttonType={Link}
               smooth
-              to="contact"
+              to="about"
               className="hero__cta"
             >
               Learn More
