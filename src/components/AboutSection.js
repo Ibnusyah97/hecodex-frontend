@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import PrimaryButton from './buttons/PrimaryButton';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import SectionTitle from './titles/SectionTitle';
-import AboutImg from '../assets/images/favicon.png';
+import AboutImg from '../assets/images/about.png';
 
 const AboutStyles = styled.div`
   padding: 10rem 0;
