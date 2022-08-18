@@ -69,7 +69,11 @@ function NewsletterSection() {
   return (
     <NewsletterStyles>
       <div className="container">
-        <div className="newsletter__wrapper">
+        <div
+          className="newsletter__wrapper"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <SectionTitle className="newsletter__title">
             Join Newsletter
           </SectionTitle>

@@ -67,7 +67,7 @@ function ToolSection() {
                 buttonTitle="Swap Now"
               />
             </div>
-            <div data-aos="fade-up" data-aos-duration="2900">
+            <div data-aos="fade-up" data-aos-duration="2600">
               <ToolMemberItem
                 img={utility2}
                 name="HecoPool"
@@ -75,7 +75,7 @@ function ToolSection() {
                 buttonTitle="Add Pool"
               />
             </div>
-            <div data-aos="fade-up" data-aos-duration="3600">
+            <div data-aos="fade-up" data-aos-duration="3000">
               <ToolMemberItem
                 img={utility3}
                 name="HecoStake"

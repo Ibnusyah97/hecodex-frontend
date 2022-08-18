@@ -44,7 +44,11 @@ function ContactSection() {
     <ContactSectionStyles id="contact">
       <div className="container">
         <div className="contact__wrapper">
-          <div className="contact__info">
+          <div
+            className="contact__info"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <SectionTitle>Get In Touch</SectionTitle>
             <ParagraphText>We would love to hear from you.</ParagraphText>
           </div>
