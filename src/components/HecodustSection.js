@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import SectionTitle from './titles/SectionTitle';
 
-const NewsletterStyles = styled.div`
+const HecodustStyles = styled.div`
   padding: 10rem 0;
-  .newsletter__wrapper {
+  .hecodust__wrapper {
     padding: 5rem 3rem;
     border-radius: 12px;
     max-width: 500px;
@@ -13,15 +13,15 @@ const NewsletterStyles = styled.div`
     background: var(--mediumSlateBlue);
     text-align: center;
   }
-  .newsletter__title {
+  .hecodust__title {
     margin-bottom: 0.2rem;
     color: var(--lightBlue_1);
   }
-  .newsletter__subtitle {
+  .hecodust__subtitle {
     color: var(--lightBlue_1);
     margin-bottom: 2rem;
   }
-  .newsletter__form {
+  .hecodust__form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +50,10 @@ const NewsletterStyles = styled.div`
     }
   }
   @media only screen and (max-width: 768px) {
-    .newsletter__wrapper {
+    .hecodust__wrapper {
       padding: 3rem 2rem;
     }
-    .newsletter__form {
+    .hecodust__form {
       flex-direction: column;
       input {
         font-size: 1.4rem;
@@ -65,29 +65,27 @@ const NewsletterStyles = styled.div`
   }
 `;
 
-function NewsletterSection() {
+function HecodustSection() {
   return (
-    <NewsletterStyles>
+    <HecodustStyles>
       <div className="container">
         <div
-          className="newsletter__wrapper"
+          className="hecodust__wrapper"
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1200"
         >
-          <SectionTitle className="newsletter__title">
-            Join Newsletter
-          </SectionTitle>
-          <ParagraphText className="newsletter__subtitle">
+          <SectionTitle className="hecodust__title">Join Hecodex</SectionTitle>
+          <ParagraphText className="hecodust__subtitle">
             Get regular updates every week
           </ParagraphText>
-          <form className="newsletter__form">
+          <form className="hecodust__form">
             <input type="email" placeholder="Enter your email" />
             <button type="submit">Join</button>
           </form>
         </div>
       </div>
-    </NewsletterStyles>
+    </HecodustStyles>
   );
 }
 
-export default NewsletterSection;
+export default HecodustSection;

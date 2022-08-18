@@ -50,7 +50,11 @@ function ToolSection() {
     <TeamSectionStyles id="tools">
       <div className="container">
         <div className="team__wrapper">
-          <div className="team__info">
+          <div
+            className="team__info"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <ParagraphText className="team__subtitle">
               Our Vision Products
             </ParagraphText>
@@ -59,7 +63,7 @@ function ToolSection() {
             </SectionTitle>
           </div>
           <div className="team__members">
-            <div data-aos="fade-up" data-aos-duration="2200">
+            <div data-aos="fade-up" data-aos-duration="1200">
               <ToolMemberItem
                 img={utility1}
                 name="HecoSwap"
@@ -67,7 +71,7 @@ function ToolSection() {
                 buttonTitle="Swap Now"
               />
             </div>
-            <div data-aos="fade-up" data-aos-duration="2600">
+            <div data-aos="fade-up" data-aos-duration="1600">
               <ToolMemberItem
                 img={utility2}
                 name="HecoPool"
@@ -75,12 +79,36 @@ function ToolSection() {
                 buttonTitle="Add Pool"
               />
             </div>
-            <div data-aos="fade-up" data-aos-duration="3000">
+            <div data-aos="fade-up" data-aos-duration="2000">
               <ToolMemberItem
                 img={utility3}
                 name="HecoStake"
                 title="Stake your Hecodex token to get rewards on BUSD"
                 buttonTitle="Stake Now"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2400">
+              <ToolMemberItem
+                img={utility3}
+                name="HecoBridge"
+                title="High security cross-chain bridge platform"
+                buttonTitle="Bridge Now"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2800">
+              <ToolMemberItem
+                img={utility3}
+                name="HecoDust"
+                title="Exchange your useless tokens into BUSD in Hecodust Platform"
+                buttonTitle="Claim Now"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000">
+              <ToolMemberItem
+                img={utility3}
+                name="HecoChain"
+                title="Build your projects on a secure and reliable network"
+                buttonTitle="Build Now"
               />
             </div>
           </div>

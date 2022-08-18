@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import themeList from '../../data/themeList';
 import ParagraphText from '../paragraphTexts/ParagraphText';
-import PrimaryButton from '../buttons/PrimaryButton';
+import UtilityButton from '../buttons/UtilityButton';
 
 const ToolMemberItemStyles = styled.div`
   .teamMember__img {
@@ -44,9 +44,9 @@ function ToolMemberItem({ img, name, title, buttonTitle, Links }) {
       </div>
       <ParagraphText className="teamMember__name">{name}</ParagraphText>
       <ParagraphText className="teamMember__subtitle">{title}</ParagraphText>
-      <PrimaryButton buttonType={Links} to="contact" className="hero__cta">
+      <UtilityButton buttonType={Links} to="contact" className="hero__cta">
         {buttonTitle}
-      </PrimaryButton>
+      </UtilityButton>
     </ToolMemberItemStyles>
   );
 }

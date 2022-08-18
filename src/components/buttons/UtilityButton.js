@@ -4,31 +4,29 @@ import themeList from '../../data/themeList';
 
 const ButtonsStyles = styled.a`
   display: inline-block;
-  background: var(--mediumSlateBlue);
-  padding: 1.5rem 2rem;
-  color: var(--white);
-  font-size: 1.6rem;
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  color: ${({ theme: { theme } }) =>
+    theme === themeList.light ? 'var(--mediumSlateBlue)' : 'var(--white)'};
+  border-color: var(--mediumSlateBlue);
+  border-style: solid;
+  border-width: 2px;
+  font-size: 1.3rem;
   text-transform: capitalize;
   border-radius: 10px;
   font-weight: 500;
-  border: 2px;
-  border-color: var(--mediumSlateBlue);
-  border-style: solid;
   &:hover {
-    background-color: transparent;
-    border-color: var(--mediumSlateBlue);
-    border-style: solid;
-    border-width: 2px;
+    background-color: var(--mediumSlateBlue);
     color: ${({ theme: { theme } }) =>
-      theme === themeList.light ? 'var(--mediumSlateBlue)' : 'var(--white)'};
+      theme === themeList.light ? 'var(--white)' : 'var(--white)'};
   }
   @media only screen and (max-width: 768px) {
     font-size: 1.4rem;
-    padding: 1.2rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 `;
 
-function PrimaryButton({ children, buttonType, ...rest }) {
+function UtilityButton({ children, buttonType, ...rest }) {
   return (
     <>
       <ButtonsStyles as={buttonType} {...rest}>
@@ -38,4 +36,4 @@ function PrimaryButton({ children, buttonType, ...rest }) {
   );
 }
 
-export default PrimaryButton;
+export default UtilityButton;

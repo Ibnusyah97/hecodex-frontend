@@ -56,7 +56,11 @@ function Footer() {
   return (
     <FooterStyles>
       <div className="container">
-        <div className="footer__wrapper">
+        <div
+          className="footer__wrapper"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <Link to="home" smooth>
             <Logo className="footer__logo" />
           </Link>

@@ -47,49 +47,51 @@ function ContactSection() {
           <div
             className="contact__info"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1200"
           >
-            <SectionTitle>Get In Touch</SectionTitle>
+            <SectionTitle>Contact Us</SectionTitle>
             <ParagraphText>We would love to hear from you.</ParagraphText>
           </div>
-          <form className="contact__form">
-            <FormField
-              className="contact__field--fullWidth"
-              type="text"
-              label="name"
-              name="name"
-              id="name"
-              required
-            />
-            <FormField
-              type="email"
-              label="Email"
-              name="email"
-              id="email"
-              required
-            />
-            <FormField
-              type="text"
-              label="Subject"
-              name="subject"
-              id="subject"
-              required
-            />
-            <FormField
-              className="contact__field--fullWidth"
-              label="Message"
-              name="message"
-              id="message"
-              rows="6"
-            />
-            <PrimaryButton
-              type="submit"
-              buttonType="button"
-              className="contact__submit"
-            >
-              Submit
-            </PrimaryButton>
-          </form>
+          <div data-aos="fade-up" data-aos-duration="1200">
+            <form className="contact__form">
+              <FormField
+                className="contact__field--fullWidth"
+                type="text"
+                label="name"
+                name="name"
+                id="name"
+                required
+              />
+              <FormField
+                type="email"
+                label="Email"
+                name="email"
+                id="email"
+                required
+              />
+              <FormField
+                type="text"
+                label="Subject"
+                name="subject"
+                id="subject"
+                required
+              />
+              <FormField
+                className="contact__field--fullWidth"
+                label="Message"
+                name="message"
+                id="message"
+                rows="6"
+              />
+              <PrimaryButton
+                type="submit"
+                buttonType="button"
+                className="contact__submit"
+              >
+                Submit
+              </PrimaryButton>
+            </form>
+          </div>
         </div>
       </div>
     </ContactSectionStyles>

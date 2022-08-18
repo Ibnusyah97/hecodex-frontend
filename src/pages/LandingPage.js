@@ -4,9 +4,9 @@ import ContactSection from '../components/contactSection/ContactSection';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import Header from '../components/Header';
-import NewsletterSection from '../components/NewsletterSection';
 import ServicesSection from '../components/services/ServicesSection';
 import ToolSection from '../components/tools/ToolSection';
+import HecodustSection from '../components/HecodustSection';
 
 function LandingPage() {
   return (
@@ -16,7 +16,7 @@ function LandingPage() {
       <ServicesSection />
       <AboutSection />
       <ToolSection />
-      <NewsletterSection />
+      <HecodustSection />
       <ContactSection />
       <Footer />
     </>

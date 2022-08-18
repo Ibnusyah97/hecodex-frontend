@@ -30,21 +30,21 @@ function ServicesSection() {
       <div className="container">
         <SectionTitle className="services__title">Our Features</SectionTitle>
         <div className="services__items">
-          <div data-aos="fade-up" data-aos-duration="700">
+          <div data-aos="fade-up" data-aos-duration="500">
             <ServiceItem
               icon={<RiImageEditLine />}
               title="Most Reliable"
               desc="We do professional photo editing. Let us help you to take your photo next level."
             />
           </div>
-          <div data-aos="fade-up" data-aos-duration="1400">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <ServiceItem
               icon={<MdPhotoCamera />}
               title="High Security"
               desc="You can hire us for any kind of casual Photography. Book us for your next events. "
             />
           </div>
-          <div data-aos="fade-up" data-aos-duration="2100">
+          <div data-aos="fade-up" data-aos-duration="1500">
             <ServiceItem
               icon={<RiHeartsFill />}
               title="All in One Platform"
