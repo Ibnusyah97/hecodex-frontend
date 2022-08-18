@@ -29,6 +29,12 @@ const TeamSectionStyles = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 5rem;
   }
+  .team__title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+  }
   @media only screen and (max-width: 790px) {
     .team__wrapper {
       flex-direction: column;
