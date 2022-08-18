@@ -47,10 +47,18 @@ function AboutSection() {
     <AboutStyles id="about">
       <div className="container">
         <div className="about__wrapper">
-          <div className="about__img">
+          <div
+            className="about__img"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <img src={AboutImg} alt="Hecodex" />
           </div>
-          <div className="about__info">
+          <div
+            className="about__info"
+            data-aos="fade-right"
+            data-aos-duration="1700"
+          >
             <ParagraphText className="about__subtitle">
               Who are we
             </ParagraphText>

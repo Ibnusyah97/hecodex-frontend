@@ -57,7 +57,11 @@ function HeroSection() {
     <HeroSectionStyles id="home">
       <div className="container">
         <div className="hero__wrapper">
-          <div className="hero__info">
+          <div
+            className="hero__info"
+            data-aos="fade-up"
+            data-aos-duration="1700"
+          >
             <HeroTitle className="hero__title">The New Era of WEB3</HeroTitle>
             <ParagraphText className="hero__desc">
               Bring a new things, think something, make everything with Hecodex
@@ -71,7 +75,11 @@ function HeroSection() {
               Learn More
             </PrimaryButton>
           </div>
-          <div className="hero__img">
+          <div
+            className="hero__img"
+            data-aos="fade-right"
+            data-aos-duration="1700"
+          >
             <img src={HeroImg} alt="Artistic" />
           </div>
         </div>

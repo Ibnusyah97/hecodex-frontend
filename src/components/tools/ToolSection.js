@@ -59,24 +59,30 @@ function ToolSection() {
             </SectionTitle>
           </div>
           <div className="team__members">
-            <ToolMemberItem
-              img={utility1}
-              name="HecoSwap"
-              title="Trade any tokens an instant with a smart routers"
-              buttonTitle="Swap Now"
-            />
-            <ToolMemberItem
-              img={utility2}
-              name="HecoPool"
-              title="Become a liquidity provider to get rewards"
-              buttonTitle="Add Pool"
-            />
-            <ToolMemberItem
-              img={utility3}
-              name="HecoStake"
-              title="Stake your Hecodex token to get rewards on BUSD"
-              buttonTitle="Stake Now"
-            />
+            <div data-aos="fade-up" data-aos-duration="2200">
+              <ToolMemberItem
+                img={utility1}
+                name="HecoSwap"
+                title="Trade any tokens an instant with a smart routers"
+                buttonTitle="Swap Now"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2900">
+              <ToolMemberItem
+                img={utility2}
+                name="HecoPool"
+                title="Become a liquidity provider to get rewards"
+                buttonTitle="Add Pool"
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3600">
+              <ToolMemberItem
+                img={utility3}
+                name="HecoStake"
+                title="Stake your Hecodex token to get rewards on BUSD"
+                buttonTitle="Stake Now"
+              />
+            </div>
           </div>
         </div>
       </div>

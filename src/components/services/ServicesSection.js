@@ -30,21 +30,27 @@ function ServicesSection() {
       <div className="container">
         <SectionTitle className="services__title">Our Features</SectionTitle>
         <div className="services__items">
-          <ServiceItem
-            icon={<RiImageEditLine />}
-            title="Most Reliable"
-            desc="We do professional photo editing. Let us help you to take your photo next level."
-          />
-          <ServiceItem
-            icon={<MdPhotoCamera />}
-            title="High Security"
-            desc="You can hire us for any kind of casual Photography. Book us for your next events. "
-          />
-          <ServiceItem
-            icon={<RiHeartsFill />}
-            title="All in One Platform"
-            desc="Wedding is the most memorable events of our life. Let us help you to capture it."
-          />
+          <div data-aos="fade-up" data-aos-duration="700">
+            <ServiceItem
+              icon={<RiImageEditLine />}
+              title="Most Reliable"
+              desc="We do professional photo editing. Let us help you to take your photo next level."
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1400">
+            <ServiceItem
+              icon={<MdPhotoCamera />}
+              title="High Security"
+              desc="You can hire us for any kind of casual Photography. Book us for your next events. "
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="2100">
+            <ServiceItem
+              icon={<RiHeartsFill />}
+              title="All in One Platform"
+              desc="Wedding is the most memorable events of our life. Let us help you to capture it."
+            />
+          </div>
         </div>
       </div>
     </ServicesSectionStyles>
