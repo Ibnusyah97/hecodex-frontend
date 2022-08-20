@@ -18,7 +18,6 @@ function LandingPage() {
       <AboutSection />
       <ToolSection />
       <HecodustSection />
-      <RoadmapSection />
       <ContactSection />
       <Footer />
     </>
