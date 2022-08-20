@@ -14,7 +14,7 @@ const RoadmapMemberItemStyles = styled.div`
       flex-direction: column;
       img {
         margin: 0;
-        max-width: 350px;
+        max-width: 270px;
       }
     }
   }
