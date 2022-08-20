@@ -15,7 +15,7 @@ const RoadmapMemberItemStyles = styled.div`
       align-items: center;
       justify-content: center;
       img {
-        max-width: 450px;
+        max-width: 360px;
       }
     }
   }
