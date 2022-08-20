@@ -7,7 +7,6 @@ import Header from '../components/Header';
 import ServicesSection from '../components/services/ServicesSection';
 import ToolSection from '../components/tools/ToolSection';
 import HecodustSection from '../components/HecodustSection';
-import RoadmapSection from '../components/roadmap/RoadmapSection';
 
 function LandingPage() {
   return (
