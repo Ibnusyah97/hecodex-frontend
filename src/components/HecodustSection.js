@@ -11,7 +11,6 @@ const HecodustStyles = styled.div`
     border-radius: 22px;
     max-width: 700px;
     margin: 0 auto;
-    padding: 20 50px 0 50px;
     background: var(--mediumSlateBlue);
     text-align: center;
   }
@@ -35,7 +34,7 @@ const HecodustStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .hecodust__wrapper {
-      padding: 3rem 0rem;
+      padding: 3rem 2rem;
     }
     .hecodust__img {
       flex-direction: column;
