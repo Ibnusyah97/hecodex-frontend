@@ -7,12 +7,13 @@ const RoadmapMemberItemStyles = styled.div`
     img {
       min-width: 420px;
       max-width: 1520px;
-      border-radius: 18px;
     }
   }
   @media only screen and (max-width: 768px) {
     .teamMember__img {
       margin-bottom: 1rem;
+      align-items: center;
+      justify-content: center;
       img {
         max-width: 450px;
       }
