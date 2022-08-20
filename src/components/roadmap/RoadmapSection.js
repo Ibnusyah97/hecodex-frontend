@@ -25,7 +25,7 @@ const RoadmapSectionStyles = styled.div`
   .Roadmap__members {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill);
     gap: 5rem;
   }
   .Roadmap__title {
