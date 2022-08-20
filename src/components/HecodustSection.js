@@ -35,7 +35,7 @@ const HecodustStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .hecodust__wrapper {
-      padding: 3rem 2rem;
+      padding: 3rem 0rem;
     }
     .hecodust__img {
       flex-direction: column;
