@@ -201,7 +201,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/roadmap" smooth activeClass="active" spy>
+                  <Link to="roadmap" smooth activeClass="active" spy>
                     Roadmap
                   </Link>
                 </li>

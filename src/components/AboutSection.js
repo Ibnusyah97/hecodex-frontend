@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-scroll';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import SectionTitle from './titles/SectionTitle';
-import AboutImg from '../assets/images/about.png';
+import AboutImg from '../assets/images/hecochain.png';
 import DocButton from './buttons/DocButton';
 
 const AboutStyles = styled.div`
@@ -28,8 +27,8 @@ const AboutStyles = styled.div`
     max-width: 300px;
   }
   .about__img {
-    max-width: 400px;
-    margin-right: 100px;
+    max-width: 500px;
+    margin-right: 50px;
   }
   @media only screen and (max-width: 768px) {
     .about__wrapper {
@@ -56,8 +55,8 @@ function AboutSection() {
           </div>
           <div
             className="about__info"
-            data-aos="fade-right"
-            data-aos-duration="1000"
+            data-aos="zoom-in-down"
+            data-aos-duration="300"
           >
             <ParagraphText className="about__subtitle">
               Who are we
@@ -69,12 +68,10 @@ function AboutSection() {
               Hecodex is a startup studio of some passionate developer. Our Goal
               is to create a new innovation on Blockchain Space.
             </ParagraphText>
-            <DocButton buttonType={Link} to="contact" smooth>
+            <DocButton href="https://hecodex.pro/whitepaper.pdf" smooth>
               Whitepaper
             </DocButton>
-            <DocButton buttonType={Link} to="contact" smooth>
-              Documentation
-            </DocButton>
+            <DocButton smooth> Documentation </DocButton>
           </div>
         </div>
       </div>

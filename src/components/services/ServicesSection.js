@@ -34,21 +34,21 @@ function ServicesSection() {
             <ServiceItem
               icon={<RiImageEditLine />}
               title="Most Reliable"
-              desc="We do professional photo editing. Let us help you to take your photo next level."
+              desc="Advanced tools with high innovation. never even existed before."
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000">
             <ServiceItem
               icon={<MdPhotoCamera />}
               title="High Security"
-              desc="You can hire us for any kind of casual Photography. Book us for your next events. "
+              desc="High level of security with advanced encryption algorithm in every module."
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1500">
             <ServiceItem
               icon={<RiHeartsFill />}
               title="All in One Platform"
-              desc="Wedding is the most memorable events of our life. Let us help you to capture it."
+              desc="Everything you need is here for free;for developers and users."
             />
           </div>
         </div>

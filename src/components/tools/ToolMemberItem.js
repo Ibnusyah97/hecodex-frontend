@@ -44,7 +44,7 @@ function ToolMemberItem({ img, name, title, buttonTitle, Links }) {
       </div>
       <ParagraphText className="teamMember__name">{name}</ParagraphText>
       <ParagraphText className="teamMember__subtitle">{title}</ParagraphText>
-      <UtilityButton buttonType={Links} to="contact" className="hero__cta">
+      <UtilityButton href={Links} className="hero__cta">
         {buttonTitle}
       </UtilityButton>
     </ToolMemberItemStyles>

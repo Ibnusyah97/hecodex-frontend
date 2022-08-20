@@ -2,14 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import SectionTitle from './titles/SectionTitle';
+import hecodust from '../assets/images/hecodust.png';
 
 const HecodustStyles = styled.div`
   padding: 10rem 0;
   .hecodust__wrapper {
     padding: 5rem 3rem;
-    border-radius: 12px;
-    max-width: 500px;
+    border-radius: 22px;
+    max-width: 700px;
     margin: 0 auto;
+    padding: 20 50px 0 50px;
     background: var(--mediumSlateBlue);
     text-align: center;
   }
@@ -21,45 +23,25 @@ const HecodustStyles = styled.div`
     color: var(--lightBlue_1);
     margin-bottom: 2rem;
   }
-  .hecodust__form {
+  .hecodust__img {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    input {
-      width: 100%;
-      max-width: 300px;
-      height: 40px;
-      padding-left: 1rem;
-      background-color: var(--lightBlue_1);
-      border: none;
-      border-radius: 4px;
-      font-size: 1.6rem;
-    }
-    button {
-      height: 40px;
-      font-size: 1.6rem;
-      cursor: pointer;
-      padding: 0 1.5rem;
-      text-transform: capitalize;
-      color: var(--darkBlue_1);
-      background-color: var(--lightBlue_1);
-      border: none;
-      border-radius: 4px;
-      transition: 0.3s ease background-color;
+    img {
+      font-size: 1.4rem;
+      max-width: 1200px;
     }
   }
   @media only screen and (max-width: 768px) {
     .hecodust__wrapper {
       padding: 3rem 2rem;
     }
-    .hecodust__form {
+    .hecodust__img {
       flex-direction: column;
-      input {
+      img {
         font-size: 1.4rem;
-      }
-      button {
-        font-size: 1.4rem;
+        max-width: 1200px;
       }
     }
   }
@@ -74,14 +56,15 @@ function HecodustSection() {
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          <SectionTitle className="hecodust__title">Join Hecodex</SectionTitle>
+          <SectionTitle className="hecodust__title">
+            HecoDust Mechanism
+          </SectionTitle>
           <ParagraphText className="hecodust__subtitle">
-            Get regular updates every week
+            Simple flow for Hecodust systems
           </ParagraphText>
-          <form className="hecodust__form">
-            <input type="email" placeholder="Enter your email" />
-            <button type="submit">Join</button>
-          </form>
+          <div className="hecodust__img">
+            <img src={hecodust} alt="hello" />
+          </div>
         </div>
       </div>
     </HecodustStyles>

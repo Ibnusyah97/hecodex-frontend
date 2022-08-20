@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import themeList from '../../data/themeList';
 import ParagraphText from '../paragraphTexts/ParagraphText';
 import SectionTitle from '../titles/SectionTitle';
 import ToolMemberItem from './ToolMemberItem';
@@ -7,6 +8,7 @@ import ToolMemberItem from './ToolMemberItem';
 import utility1 from '../../assets/images/hecoswap.jpg';
 import utility2 from '../../assets/images/hecopool.jpg';
 import utility3 from '../../assets/images/hecostake.jpg';
+import soon from '../../assets/images/soon.jpg';
 
 const TeamSectionStyles = styled.div`
   padding: 10rem 0;
@@ -32,7 +34,8 @@ const TeamSectionStyles = styled.div`
   .team__title {
     margin-bottom: 1rem;
     font-weight: 600;
-    color: var(--white);
+    color: ${({ theme: { theme } }) =>
+      theme === themeList.light ? 'var(--darkBlue_2)' : 'var(--white)'};
     text-transform: capitalize;
   }
   @media only screen and (max-width: 790px) {
@@ -75,6 +78,7 @@ function ToolSection() {
                 name="HecoSwap"
                 title="Trade any tokens an instant with a smart routers"
                 buttonTitle="Swap Now"
+                Links="https://swap.hecodex.pro/#/swap/"
               />
             </div>
             <div data-aos="fade-up" data-aos-duration="1600">
@@ -83,6 +87,7 @@ function ToolSection() {
                 name="HecoPool"
                 title="Become a liquidity provider to get rewards"
                 buttonTitle="Add Pool"
+                Links="https://swap.hecodex.pro/#/pool/"
               />
             </div>
             <div data-aos="fade-up" data-aos-duration="2000">
@@ -91,11 +96,12 @@ function ToolSection() {
                 name="HecoStake"
                 title="Stake your Hecodex token to get rewards on BUSD"
                 buttonTitle="Stake Now"
+                Links="https://swap.hecodex.pro/#/stake/"
               />
             </div>
             <div data-aos="fade-up" data-aos-duration="2400">
               <ToolMemberItem
-                img={utility3}
+                img={soon}
                 name="HecoBridge"
                 title="High security cross-chain bridge platform"
                 buttonTitle="Bridge Now"
@@ -103,7 +109,7 @@ function ToolSection() {
             </div>
             <div data-aos="fade-up" data-aos-duration="2800">
               <ToolMemberItem
-                img={utility3}
+                img={soon}
                 name="HecoDust"
                 title="Exchange your useless tokens into BUSD in Hecodust Platform"
                 buttonTitle="Claim Now"
@@ -111,7 +117,7 @@ function ToolSection() {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000">
               <ToolMemberItem
-                img={utility3}
+                img={soon}
                 name="HecoChain"
                 title="Build your projects on a secure and reliable network"
                 buttonTitle="Build Now"

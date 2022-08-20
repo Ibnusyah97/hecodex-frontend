@@ -91,14 +91,24 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/roadmap" smooth>
+                <Link to="roadmap" smooth>
                   Roadmap
                 </Link>
               </li>
               <li>
-                <Link to="/whitepaper" smooth>
-                  Whitepaper
-                </Link>
+                <a href="https://twitter.com/HecodexOfficial" smooth>
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/hecodex" smooth>
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/hecodex" smooth>
+                  Telegram
+                </a>
               </li>
             </ul>
           </div>
