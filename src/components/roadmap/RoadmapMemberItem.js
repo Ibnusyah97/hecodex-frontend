@@ -15,9 +15,9 @@ const RoadmapMemberItemStyles = styled.div`
   @media only screen and (max-width: 768px) {
     .teamMember__img {
       margin-bottom: 1rem;
-      margin-left: 0rem;
+      margin-left: 0;
       img {
-        max-width: 620px;
+        max-width: 480px;
         max-height: 600px;
       }
     }
