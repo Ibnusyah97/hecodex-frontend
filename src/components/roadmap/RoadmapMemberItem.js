@@ -8,7 +8,6 @@ const RoadmapMemberItemStyles = styled.div`
     img {
       min-width: 420px;
       max-width: 1920px;
-      max-width: 3920px;
       border-radius: 18px;
     }
   }
@@ -17,8 +16,8 @@ const RoadmapMemberItemStyles = styled.div`
       margin-bottom: 1rem;
       margin-left: 0;
       img {
+        min-width: 300px;
         max-width: 320px;
-        max-height: 500px;
       }
     }
   }
