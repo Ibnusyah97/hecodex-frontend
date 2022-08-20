@@ -17,8 +17,8 @@ const RoadmapMemberItemStyles = styled.div`
       margin-bottom: 1rem;
       margin-left: 0;
       img {
-        max-width: 480px;
-        max-height: 600px;
+        max-width: 320px;
+        max-height: 500px;
       }
     }
   }
@@ -28,7 +28,7 @@ function RoadmapMemberItem({ img }) {
   return (
     <RoadmapMemberItemStyles>
       <div className="teamMember__img">
-        <img src={img} alt="hello" />
+        <img src={img} alt="Roadmap" />
       </div>
     </RoadmapMemberItemStyles>
   );
