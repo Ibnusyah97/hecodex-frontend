@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const RoadmapMemberItemStyles = styled.div`
   .teamMember__img {
     margin-bottom: 2rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
     img {
       min-width: 420px;
       max-width: 1920px;
