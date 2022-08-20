@@ -14,7 +14,7 @@ const RoadmapMemberItemStyles = styled.div`
     .teamMember__img {
       margin-bottom: 1rem;
       img {
-        max-width: 620px;
+        max-width: 450px;
       }
     }
   }
