@@ -6,7 +6,7 @@ const RoadmapMemberItemStyles = styled.div`
     margin-bottom: 2rem;
     img {
       min-width: 420px;
-      max-width: 1920px;
+      max-width: 1520px;
       border-radius: 18px;
     }
   }
@@ -14,8 +14,7 @@ const RoadmapMemberItemStyles = styled.div`
     .teamMember__img {
       margin-bottom: 1rem;
       img {
-        min-width: 300px;
-        max-width: 520px;
+        max-width: 620px;
       }
     }
   }
