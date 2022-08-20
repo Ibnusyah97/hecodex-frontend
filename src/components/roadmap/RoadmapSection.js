@@ -11,6 +11,7 @@ const RoadmapSectionStyles = styled.div`
   padding: 10rem 0;
   .Roadmap__wrapper {
     display: flex;
+    gap: 1rem;
   }
   .Roadmap__info {
     max-width: 250px;
@@ -25,6 +26,7 @@ const RoadmapSectionStyles = styled.div`
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill);
+    gap: 5rem;
   }
   .Roadmap__title {
     margin-bottom: 1rem;
@@ -37,12 +39,14 @@ const RoadmapSectionStyles = styled.div`
     .Roadmap__wrapper {
       flex-direction: column;
       text-align: center;
+      gap: 3rem;
     }
     .Roadmap__info {
       margin: 0 auto;
     }
     .Roadmap__members {
       flex-wrap: wrap;
+      gap: 8.5rem;
     }
   }
 `;
