@@ -39,14 +39,13 @@ const RoadmapSectionStyles = styled.div`
     .Roadmap__wrapper {
       flex-direction: column;
       text-align: center;
-      gap: 3rem;
+      margin-right: 3rem;
     }
     .Roadmap__info {
       margin: 0 auto;
     }
     .Roadmap__members {
-      flex-wrap: wrap;
-      gap: 8.5rem;
+      flex-direction: column;
     }
   }
 `;

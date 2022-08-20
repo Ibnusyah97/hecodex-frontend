@@ -11,11 +11,10 @@ const RoadmapMemberItemStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .teamMember__img {
-      margin-bottom: 1rem;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
       img {
-        max-width: 320px;
+        margin: 0;
+        max-width: 350px;
       }
     }
   }
